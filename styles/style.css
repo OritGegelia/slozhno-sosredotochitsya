@@ -14,10 +14,6 @@
   display: none;
 }
 
-.page.theme_auto .theme__only-dark {
-  display: none;
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -422,5 +418,11 @@
 
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto .theme__only-dark {
+    display: none;
   }
 }
