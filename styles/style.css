@@ -302,7 +302,7 @@
 }
 
 
-@media (378px < width <=768px){
+@media (378px < width <=768px) {
   .section__content-what {
     display: flex;
     flex-direction: column;
@@ -413,7 +413,7 @@
   }
 
   .footer {
-    height: 667px;    
+    height: 667px;
   }
 
   .footer__title {
