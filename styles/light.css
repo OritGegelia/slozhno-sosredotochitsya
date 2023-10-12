@@ -1,5 +1,4 @@
 :root .theme_light {
-  --main-font-family: IBM Plex Mono;
   --accent-color: #FF0070;
   --title-text-color: #FFC2E6;
   --text-background-color: #FF8DCB;
@@ -7,8 +6,12 @@
   --decoration-accent-color: #353430;
 }
 
+.page.theme_light .header__title {
+  --accent-color: #FF8DCB;
+}
+
 @media (prefers-color-scheme: light) {
-  .page.theme_auto .theme__only-dark {
+  .page.theme_auto .header__item-only-dark {
     display: none;
   }
 
@@ -16,7 +19,3 @@
       --accent-color: #FF8DCB;
     }
   }
-
-.page.theme_light .header__title {
-  --accent-color: #FF8DCB;
-}

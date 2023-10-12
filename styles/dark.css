@@ -6,7 +6,7 @@
   --text-accent-color: #000028;
 }
 
-.page.theme_dark .theme__only-dark {
+.page.theme_dark .header__item-only-dark {
   position: absolute;
   color: var(--decoration-accent-color);
   text-align: center;
@@ -19,11 +19,11 @@
   right: 48px;
 }
 
-.theme__only-dark {
+.header__item-only-dark {
   text-transform: uppercase;
 }
 
-.theme__only-dark::after {
+.header__item-only-dark::after {
   content: '';
   position: absolute;
   background-color: var(--decoration-accent-color);
@@ -52,15 +52,15 @@
 }
 
 .theme_dark .section__content-title {
-  color: #000028;
+  color: var(--text-accent-color);
 }
 
 .theme_dark .section__content-subtitle {
-  color: #000028;
+  color: var(--text-accent-color);
 }
 
 @media (prefers-color-scheme: dark) {
-  .page.theme_auto .theme__only-dark {
+  .page.theme_auto .header__item-only-dark {
     position: absolute;
     color: var(--decoration-accent-color);
     text-align: center;
@@ -73,11 +73,11 @@
     right: 48px;
   }
   
-  .theme__only-dark {
+  .header__item-only-dark {
     text-transform: uppercase;
   }
   
-  .theme__only-dark::after {
+  .header__item-only-dark::after {
     content: '';
     position: absolute;
     background-color: var(--decoration-accent-color);
@@ -94,7 +94,7 @@
   }
   
   .theme_auto .header__text {
-    color: #000028;
+    color: var(--text-accent-color);
   }
   
   .theme_auto .header__theme-menu-button {
@@ -106,11 +106,11 @@
   }
   
   .theme_auto .section__content-title {
-    color: #000028;
+    color: var(--text-accent-color);
   }
   
   .theme_auto .section__content-subtitle {
-    color: #000028;
+    color: var(--text-accent-color);
   }
 
   

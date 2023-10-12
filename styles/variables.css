@@ -1,5 +1,5 @@
 :root {
-  --main-font-family: IBM Plex Mono;
+  --main-font-family: 'IBM Plex Mono', Arial, Helvetica, monospace, serif;
   --accent-color: #FF0070;
   --title-text-color: #FFC2E6;
   --text-background-color: #FF8DCB;
@@ -10,7 +10,6 @@
 
 @media (prefers-color-scheme: light) {
   :root .theme_auto {
-    --main-font-family: IBM Plex Mono;
     --accent-color: #FF0070;
     --title-text-color: #FFC2E6;
     --text-background-color: #FF8DCB;
