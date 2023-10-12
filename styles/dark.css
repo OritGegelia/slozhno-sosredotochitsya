@@ -12,7 +12,7 @@
 
 .page.theme_dark .header__item-only-dark {
   position: absolute;
-  color: var(--decoration-accent-color), #ff0070;
+  color: var(--decoration-accent-color);
   text-align: center;
   font-family: var(--main-font-family);
   font-size: 18px;
@@ -30,33 +30,33 @@
 .header__item-only-dark::after {
   content: "";
   position: absolute;
-  background-color: var(--decoration-accent-color), #ff0070;
+  background-color: var(--decoration-accent-color);
   width: 10px;
   height: 10px;
   border-radius: 90%;
   top: 8px;
   left: 40px;
-  box-shadow: 0 0 10px var(--decoration-accent-color), #ff0070;
+  box-shadow: 0 0 10px var(--decoration-accent-color);
 }
 
 .theme_dark .header__text {
-  color: var(--text-accent-color), #000028;
+  color: var(--text-accent-color);
 }
 
 .theme_dark .header__theme-menu-button {
-  color: var(--decoration-accent-color), #ff0070;
+  color: var(--decoration-accent-color);
 }
 
 .theme_dark .section__title {
-  color: var(--decoration-accent-color), #ff0070;
+  color: var(--decoration-accent-color);
 }
 
 .theme_dark .section__content-title {
-  color: var(--text-accent-color), #000028;
+  color: var(--text-accent-color);
 }
 
 .theme_dark .section__content-subtitle {
-  color: var(--text-accent-color), #000028;
+  color: var(--text-accent-color);
 }
 
 @media (max-width: 375px) {
@@ -73,7 +73,7 @@
 
   .page.theme_auto .header__item-only-dark {
     position: absolute;
-    color: var(--decoration-accent-color), #ff0070;
+    color: var(--decoration-accent-color);
     text-align: center;
     font-family: var(--main-font-family);
     font-size: 18px;
@@ -91,32 +91,32 @@
   .header__item-only-dark::after {
     content: "";
     position: absolute;
-    background-color: var(--decoration-accent-color), #ff0070;
+    background-color: var(--decoration-accent-color);
     width: 10px;
     height: 10px;
     border-radius: 90%;
     top: 8px;
     left: 40px;
-    box-shadow: 0 0 10px var(--decoration-accent-color), #ff0070;
+    box-shadow: 0 0 10px var(--decoration-accent-color);
   }
 
   .theme_auto .header__text {
-    color: var(--text-accent-color), #000028;
+    color: var(--text-accent-color);
   }
 
   .theme_auto .header__theme-menu-button {
-    color: var(--decoration-accent-color), #ff0070;
+    color: var(--decoration-accent-color);
   }
 
   .theme_auto .section__title {
-    color: var(--decoration-accent-color), #ff0070;
+    color: var(--decoration-accent-color);
   }
 
   .theme_auto .section__content-title {
-    color: var(--text-accent-color), #000028;
+    color: var(--text-accent-color);
   }
 
   .theme_auto .section__content-subtitle {
-    color: var(--text-accent-color), #000028;
+    color: var(--text-accent-color);
   }
 }

@@ -14,8 +14,4 @@
   .page.theme_auto .header__item-only-dark {
     display: none;
   }
-
-  .page.theme_auto .header__title {
-    --accent-color: #ff8dcb;
-  }
 }

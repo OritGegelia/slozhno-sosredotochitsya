@@ -297,9 +297,19 @@
   line-height: 82.5%;
 }
 
+@media (width > 768px) {
+  .header__title {
+    --accent-color: #ff0070;
+  }
+}
+
 @media (378px < width <=768px) {
   .header {
     grid-template-rows: repeat(3, 1fr);
+  }
+
+  .header__title {
+    --accent-color: #ff8dcb;
   }
 
   .header__text {
