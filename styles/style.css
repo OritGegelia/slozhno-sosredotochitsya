@@ -38,7 +38,7 @@
 }
 
 .text__link:hover {
-  border-bottom: 1px solid var(--decoration-accent-color);
+  border-block-end: 1px solid var(--decoration-accent-color);
 }
 
 .text__link:focus-visible {
@@ -72,7 +72,8 @@
 .header {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
-  height: 768px;
+  height: 100vh;
+  min-height: 668px;
   padding: 20px;
   position: relative;
   margin-block-end: 40px;
@@ -94,6 +95,8 @@
   align-items: center;
   width: 70px;
   height: 26px;
+  cursor: pointer;
+  color: var(--decoration-accent-color);
 
   font-family: var(--main-font-family), Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -114,9 +117,6 @@
 
 .header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--decoration-accent-color);
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 
 .header__theme-menu-button_active:disabled {
@@ -149,9 +149,8 @@
   justify-self: right;
   align-self: start;
   width: 50%;
-
+  color: var(--text-accent-color);
   display: flex;
-  
 }
 
 /* Common section styles */
@@ -255,6 +254,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .section__pictures-item-sunset {
@@ -284,7 +284,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 768px;
+  height: 100vh;
+  min-height: 668px;
   position: relative;
   padding: 20px;
   margin-block-start: 40px;
@@ -347,6 +348,26 @@
     flex-direction: column;
     gap: 10px;
   }
+  .section__why {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__title-what {
+    width: 100%;
+  }
+
+  .section__how {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__text {
+    width: 100%;
+    align-self: center;
+  }
 }
 
 @media (max-width: 378px) {
@@ -376,11 +397,6 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .header__text {
-    width: 100%;
-    align-self: center;
-  }
-
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
@@ -394,20 +410,6 @@
     padding-block-start: 10px;
   }
 
-  .section__why {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .section__title-what {
-    width: 100%;
-  }
-
-  .section__how {
-    display: flex;
-    flex-direction: column;
-  }
-
   .section__pictures {
     gap: 10px;
   }
@@ -418,11 +420,5 @@
 
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .page.theme_auto .theme__only-dark {
-    display: none;
   }
 }
