@@ -8,6 +8,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .page.theme_light .theme__only-dark {
