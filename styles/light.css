@@ -13,9 +13,9 @@
   }
 
   .page.theme_auto .header__title {
-      --accent-color: #FF8DCB; 
+      --accent-color: #FF8DCB;
+    }
   }
-}
 
 .page.theme_light .header__title {
   --accent-color: #FF8DCB;

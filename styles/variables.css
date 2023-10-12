@@ -9,7 +9,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root .theme_auto{
+  :root .theme_auto {
     --main-font-family: IBM Plex Mono;
     --accent-color: #FF0070;
     --title-text-color: #FFC2E6;
@@ -20,7 +20,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root .theme_auto{
+  :root .theme_auto {
     --text-background-color: #FF0070;
     --text-color: #F1B2CE;
     --title-text-color: #DB00FF;
