@@ -6,10 +6,6 @@
   --decoration-accent-color: #353430;
 }
 
-.page.theme_light .header__title {
-  --accent-color: #ff8dcb;
-}
-
 @media (prefers-color-scheme: light) {
   .page.theme_auto .header__item-only-dark {
     display: none;

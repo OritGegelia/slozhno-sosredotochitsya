@@ -120,3 +120,13 @@
     color: var(--text-accent-color);
   }
 }
+
+@media (prefers-color-scheme: dark) and (375px <= width <=768px) {
+  .theme_auto .header__title {
+    --accent-color: #ff0070;
+  }
+
+  .theme_auto .footer__title {
+    --accent-color: #ff0070;
+  }
+}
